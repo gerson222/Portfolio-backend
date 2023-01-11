@@ -1,0 +1,14 @@
+.bg-image-full {
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    background-image: url(..\..\..\assets\img\fondo2.png);
+    height: auto;
+    width: 100vw;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
