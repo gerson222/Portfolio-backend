@@ -17,6 +17,7 @@ import { Page404Component } from './componentes/page404/page404.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { AboutmeComponent } from './componentes/aboutme/aboutme.component';
+import { ExperienciaComponent } from './modales/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AboutmeComponent } from './componentes/aboutme/aboutme.component';
     Page404Component,
     NavbarComponent,
     FooterComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
