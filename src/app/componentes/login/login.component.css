@@ -96,7 +96,7 @@ border-color: red;
 }
 
 .bg-image-full {
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
