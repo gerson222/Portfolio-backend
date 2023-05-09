@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
@@ -11,7 +12,6 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { EdicionComponent } from './componentes/edicion/edicion.component';
-import { HttpClientModule } from '@angular/common/http';
 import { IndexComponent } from './componentes/index/index.component';
 import { Page404Component } from './componentes/page404/page404.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
